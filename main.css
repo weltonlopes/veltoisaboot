@@ -1,0 +1,106 @@
+.nav-link {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+.navbar {
+    background-color: #2666CF;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+section {
+    padding-top: 100px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header h1 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+hr {
+    z-index: 0;
+}
+
+.card {
+    margin-bottom: 30px;
+    z-index: 0;
+}
+
+.carousel {
+    z-index: 0;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color:#2666CF;
+    text-align: center;
+    color: #fff;
+    padding: 16px 0;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-links img {
+    height: 32px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 642px) {
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 48.5%);
+        column-gap: 3%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .main-container {
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+
+    .fixadoEsquerda {
+        position: sticky;
+        left: 0;
+        top: 0;
+        padding-top: 60px;
+    }
+
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(3, 31.33%);
+        column-gap: 3%;
+    }
+
+    .card {
+        max-height: 1000px;
+    }
+    
+}

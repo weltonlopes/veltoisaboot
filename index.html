@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site do Veltinho</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Site do Veltinho</h1>
+                <button type="button" class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-underline">
+                        <li class="nav-item">
+                            <a href="#velto" class="nav-link active">Velto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#pets" class="nav-link">Pets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contato" class="nav-link">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>        
+    </header>
+    <div class="main-container">
+        <aside id="asideCarouselIra">
+            <div class="container fixadoEsquerda">
+                <div class="carousel carousel-fade slide" id="carouselIra" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div data-bs-interval="3000" class="carousel-item active">
+                            <img class="d-block w-100" src="./images/ira1.jpg" alt="Uma cadela chamada Ira photo1">
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block w-100" src="./images/ira2.jpg" alt="Uma cadela chamada Ira photo2">
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block w-100" src="./images/ira3.jpg" alt="Uma cadela chamada Ira photo3">
+                        </div>
+                        <button type="button" class="carousel-control-prev" data-bs-target="#carouselIra" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button type="button" class="carousel-control-next" data-bs-target="#carouselIra" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        <div class="carousel-indicators">
+                            <button type="button" class="active" data-bs-target="#carouselIra" data-bs-slide-to="0"></button>
+                            <button type="button" data-bs-target="#carouselIra" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#carouselIra" data-bs-slide-to="2"></button>
+                        </div>
+                    </div>
+                </div>
+                <h4>Cachorra linda!</h4>
+                <p>Ela tem um "je ne sais quoi" que é só dela. Aliquam eius, numquam, quaerat nihil sunt molestias, harum illo tenetur asperiores ad quod voluptas. Dolores libero corrupti voluptatem aspernatur incidunt voluptatibus soluta.</p></div>
+        </aside>
+        <div class="container">
+            <main data-bs-spy="scroll" data-bs-target="#cabecalho">
+                <section id="velto">
+                    <h1>Velto</h1>
+                    <hr>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="./images/weltonandfriend.jpg" alt="Welton e amigos">
+                            <div class="card-body">
+                                <h4 class="card-tittle">Velto e os amigos</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores neque, sapiente ipsum nobis non in sequi, qui illum beatae temporibus velit suscipit 
+                                </p>
+                                <a href="#" class="btn btn-primary">Leia mais...</a>
+                            </div>
+                        </div>
+                        <div class="card" id="cardMiddle">
+                            <img src="./images/weltonrightnow.jpg" alt="Welton codando">
+                            <div class="card-body">
+                                <h4 class="card-tittle">Velto tomando café</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores neque, sapiente ipsum nobis non in sequi, qui illum beatae temporibus velit suscipit 
+                                </p>
+                                <a href="#" class="btn btn-primary">Leia mais...</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./images/weltoncycling.jpg" alt="Welton de bike">
+                            <div class="card-body">
+                                <h4 class="card-tittle">Velto de bike</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores neque, sapiente ipsum nobis non in sequi, qui illum beatae temporibus velit suscipit 
+                                </p>
+                                <a href="#" class="btn btn-primary">Leia mais...</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="pets">
+                    <h1>Pets</h1>
+                    <hr>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="./images/ira.jpg" alt="Uma cadela chamada Ira photo4">
+                            <div class="card-body">
+                                <h4 class="card-tittle">Ira</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores neque, sapiente ipsum nobis non in sequi, qui illum beatae temporibus velit suscipit 
+                                </p>
+                                <a href="#" class="btn btn-primary">Leia mais...</a>
+                            </div>
+                        </div>
+                        <div class="card" id="cardMiddle">
+                            <img src="./images/miau.jpg" alt="Um gato chamado Miau">
+                            <div class="card-body">
+                                <h4 class="card-tittle">Miau</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores neque, sapiente ipsum nobis non in sequi, qui illum beatae temporibus velit suscipit 
+                                </p>
+                                <a href="#" class="btn btn-primary">Leia mais...</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./images/chicken.jpg" alt="Welton de bike">
+                            <div class="card-body">
+                                <h4 class="card-tittle">Odeio Galinhas!</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores neque, sapiente ipsum nobis non in sequi, qui illum beatae temporibus velit suscipit 
+                                </p>
+                                <a href="#" class="btn btn-primary">Leia mais...</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="contato">
+                    <h1>Contato</h1>
+                    <hr>
+                    <div class="contact-methods">
+                        <div>
+                            <h3>Me mande uma mensagem</h3>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="inputNome" class="form-label">Seu nome:</label>
+                                    <input type="text" class="form-control" id="inputNome" placeholder="Seu nome aqui"/>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="inputEmail" class="form-label">Seu e-mail:</label>
+                                    <input type="email" class="form-control" name="" id="inputEmail" placeholder="email@exemplo.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="inputTextArea" class="form-label">Sua mensagem:</label>
+                                    <textarea name="" class="form-control" id="inputTextArea" rows="3"></textarea>
+                                </div>
+                                <div class="mb-3">
+                                    <button type="submit" class="btn btn-primary">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div></div>
+    <footer>
+        <div class="container">
+            <p>Welton Lopes Pereira</p>
+            <ul class="social-links">
+                <li>
+                    <a href="https://www.linkedin.com/in/welton-lopes-pereira-b41198296/" title="Join me on Linkedin">
+                        <img src="./images/linkedin.png" alt="Linkedin logo">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/weltonlopes" title="Take a look at my projects on github">
+                        <img src="./images/Github.png" alt="Github logo">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.strava.com/athletes/47265869" title="Follow me on strava">
+                        <img src="./images/strava.png" alt="Strava logo">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
